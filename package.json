@@ -1,0 +1,48 @@
+{
+  "name": "careercup-cli",
+  "version": "1.0.0",
+  "description": "A cli tool to enjoy careercup questions!",
+  "preferGlobal": "true",
+  "bin": {
+    "c3": "./bin/c3"
+  },
+  "scripts": {
+    "lint": "eslint lib/",
+    "test": "npm run lint && nyc mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/skygragon/careercup-cli.git"
+  },
+  "keywords": [
+    "careercup",
+    "cli",
+    "command",
+    "tool"
+  ],
+  "author": {
+    "name": "Eric Wang",
+    "email": "skygragon@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skygragon/careercup-cli/issues"
+  },
+  "homepage": "https://github.com/skygragon/careercup-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cheerio": "^0.20.0",
+    "nedb": "^1.8.0",
+    "request": "^2.74.0",
+    "sprintf-js": "^1.0.3",
+    "underscore": "^1.8.3",
+    "yargs": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.3.1",
+    "eslint-config-google": "^0.6.0",
+    "mocha": "^3.0.2",
+    "nyc": "^8.1.0"
+  }
+}
