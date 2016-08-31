@@ -27,7 +27,14 @@ Inspired by [leetcode-cli](https://github.com/skygragon/leetcode-cli)
 
 ## Install
 
+From npm repo:
+
     $ sudo npm install -g careercup-cli
+
+From source code:
+
+    $ git clone http://github.com/skygragon/careercup-cli
+    $ cd careercup-cli && npm install && sudo nom install -g .
 
 ## Best Practice
 
