@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [daemon](#daemon) (experimental)
 * [help](#help)
 * [list](#list)
 * [mark](#mark)
@@ -7,6 +8,17 @@
 * [stat](#stat)
 * [update](#update)
 * [version](#version)
+
+## daemon
+
+When enabling, there will be a long live daemon process running in the backend to provide database service. All other cli will be talking to it for any database operations.
+
+This experimental mode is introduced to avoid the performance penalty of NeDB, see more details [here](https://github.com/skygragon/careercup-cli/blob/master/doc/advanced.md#daemon-mode).
+
+	$ c3 daemon start
+
+* `c3 daemon start` to start the server daemon.
+* `c3 daemon stop` to stop the server daemon.
 
 ## help
 
