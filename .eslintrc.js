@@ -2,7 +2,7 @@ module.exports = {
     "extends": "google",
     "rules": {
       "key-spacing": [2, { "align": "value" }],
-      "no-eval": 1, // we use it on purpose
+      "no-extend-native": 1,
       "no-multi-spaces": [2, { exceptions: { "SwitchCase": true }}],
       "no-unused-expressions": 1,
       "no-unused-vars": 1,
