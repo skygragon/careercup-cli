@@ -10,11 +10,11 @@ Inspired by [leetcode-cli](https://github.com/skygragon/leetcode-cli)
 
 ## Why you need it?
 
-* Questions are saved offline.
-* Easely browsing and searching questions, by different criteria.
-* You can mark questions with different labels, build up your own categoies and groups.
-* Statistics support, to help trace your personal progress.
-* One-click update with the latest questions.
+* Questions are saved [**offline**](https://github.com/skygragon/careercup-cli/blob/master/doc/advanced.md#caching).
+* Easely [**browsing**](https://github.com/skygragon/careercup-cli/blob/master/doc/commands.md#show) and [**searching**](https://github.com/skygragon/careercup-cli/blob/master/doc/commands.md#list) questions, by different criteria.
+* You can [**mark**](https://github.com/skygragon/careercup-cli/blob/master/doc/commands.md#mark) questions with different labels, build up your own categoies and groups.
+* [**Statistics**](https://github.com/skygragon/careercup-cli/blob/master/doc/commands.md#stat) support, to help trace your personal progress.
+* One-click [**update**](https://github.com/skygragon/careercup-cli/blob/master/doc/commands.md#update) with the latest questions.
 
 ## Install
 

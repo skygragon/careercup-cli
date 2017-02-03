@@ -1,6 +1,7 @@
 # Table of Contents
 
 * [Bash Completion](#bash-completion)
+* [Caching](#caching)
 * [Colorful Output](#colorful-output)
 * [Configuration](#configuration)
 * [Daemon Mode](#daemon-mode)
@@ -15,6 +16,10 @@ Copy `.c3-completion.bash` to your home directory, and source it in .bashrc (Lin
 
 	$ c3 list --<tab><tab>
 	--company  --help     --label    --tag
+
+## Caching
+
+Local database is at your home directory: `~/.c3/questions.nedb`
 
 ## Colorful Output
 
