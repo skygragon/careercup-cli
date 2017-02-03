@@ -22,7 +22,7 @@ From source code:
 
 ## Best Practice
 
-By the way, c3 = **C**areer**C**up-**C**li
+By the way, `c3` = `C`areer`C`up-`C`li
 
 	Read help first                    $ c3 help
 	Update all questions               $ c3 update

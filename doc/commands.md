@@ -171,14 +171,14 @@ Update questions from carrercup.com. The 1st time will cost a while since it wil
 ## version
 
 	$ c3 version
-	1.0.0
+	2.0.0
 
 * `-v` to show verbose info, e.g. config, cache dir.
 
 *Example*
 
 	$ c3 version -v
-	careercup-cli 1.0.0
+	careercup-cli 2.0.0
 
 	Cache:    /Users/cheirxie/.c3/
 	Config:   /Users/cheirxie/.c3config
