@@ -8,6 +8,13 @@ A cli tool to enjoy careercup questions!
 
 Inspired by [leetcode-cli](https://github.com/skygragon/leetcode-cli)
 
+## Why you need it?
+
+* Questions are saved offline.
+* Easely browsing and searching questions, by different criteria.
+* You can mark questions with different labels, build up your own categoies and groups.
+* Statistics support, to help trace your personal progress.
+* One-click update with the latest questions.
 
 ## Install
 
