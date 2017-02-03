@@ -76,6 +76,13 @@ Mark question with your customized labels. You should always use different label
 	$ c3 mark 14945171 easy
 	OK
 
+* prefix `+` to add a label, surely you can also omit it.
+* prefix `~` to remove a label.
+
+*Example*
+
+	$ c3 mark 14945171 +label1 label2 ~label3
+
 ## show
 
 Show question details. (*P.S. if you are using iterm2 on MAC, you can directly open the question link in the console.*)
